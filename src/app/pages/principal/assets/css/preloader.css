@@ -1,0 +1,19 @@
+/*--- preloader ---*/
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgb(1,40,99);
+background: linear-gradient(90deg, rgba(1,40,99,1) 0%, rgba(9,9,121,1) 43%, rgba(1,40,99,1) 100%);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.preloader img {
+    width: 150px;
+}

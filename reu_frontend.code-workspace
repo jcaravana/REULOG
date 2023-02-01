@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+    "explorer.compactFolders": true,
+    "window.zoomLevel": -1,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 24,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.rulers": [
+      100,
+      120
+    ],
+    "editor.quickSuggestions": {
+      "strings": true
+   },
+   "css.validate": false,
+   "editor.inlineSuggest.enabled": true,
+    "editor.tabSize": 2,
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 14,
+    "breadcrumbs.enabled": true,
+    // "prettier.trailingComma": "all",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.renderWhitespace": "selection",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    //"prettier.singleQuote": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.visible": true,
+    "editor.renderControlCharacters": true,
+    "extensions.ignoreRecommendations": false,
+    "editor.parameterHints.enabled": false,
+    "javascript.suggest.autoImports": false,
+    "eslint.alwaysShowStatus": true,
+    "editor.accessibilitySupport": "off",
+    "workbench.colorTheme": "Omni",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"]
+  }
+}
