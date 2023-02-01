@@ -2,7 +2,7 @@
   "name": "reu_frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jcaravana.github.io/reulog",
+  "homepage": "https://jcaravana.github.io",
   "dependencies": {
     "@aeness/ckeditor5-insert-image": "29.0.0",
     "@ckeditor/ckeditor5-alignment": "^35.4.0",
@@ -164,8 +164,8 @@
   },
   "scripts": {
     "start": "react-app-rewired --openssl-legacy-provider start",
-    "buildold": "cross-env GENERATE_SOURCEMAP=false react-app-rewired --openssl-legacy-provider build",
-    "build": "cross-env GENERATE_SOURCEMAP=false react-app-rewired  build",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-app-rewired --openssl-legacy-provider build",
+    "buildold": "cross-env GENERATE_SOURCEMAP=false react-app-rewired  build",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "test": "react-app-rewired test --env=node",
