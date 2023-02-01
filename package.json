@@ -164,7 +164,7 @@
   },
   "scripts": {
     "start": "react-app-rewired --openssl-legacy-provider start",
-    //"build": "cross-env GENERATE_SOURCEMAP=false react-app-rewired --openssl-legacy-provider build",
+    "buildold": "cross-env GENERATE_SOURCEMAP=false react-app-rewired --openssl-legacy-provider build",
     "build": "cross-env GENERATE_SOURCEMAP=false react-app-rewired  build",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
